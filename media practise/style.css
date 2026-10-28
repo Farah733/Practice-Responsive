@@ -1,0 +1,16 @@
+.container{
+    width: 100%;
+    min-height: 200px;
+    max-height: 5000px;
+    background-color: aquamarine;
+
+    @media only screen and ( max-width: 1440px){
+        .container{
+            height: 850px;}
+    }
+      
+     @media only screen and ( max-width: 1024px){
+      .container{
+        overflow: hidden;}
+    }
+}
